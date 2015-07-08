@@ -1,0 +1,94 @@
+html, body {
+    height: 1200px;
+    width: 600px;
+    padding: 7px;
+}
+
+.page {
+	height: 100%;
+	width: 100%;
+}
+
+.topleft {
+	margin-bottom: 10px;
+	height: 100px;
+	width: 32.2%;
+	float: left;
+	background-color: #CC0000;
+}
+
+.topmid {
+	margin-left: 10px;
+	margin-right: 10px;	
+	margin-bottom: 10px;
+	height: 100px;
+	width: 32.2%;
+	float: left;
+	background-color: #3366FF;
+}
+
+.topright {
+	margin-bottom: 10px;
+	height: 100px;
+	width: 32.2%;
+	float: left;
+	background-color: #595953;
+}
+
+#textblock {
+	margin-right: 10px;
+	padding-right: 10px;
+}
+
+p {
+	clear: left;
+	font-family: sans-serif;
+}
+
+.twotone {
+	height: 200px;
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+.redtwo {
+	height: 100%;
+	width: 33%;
+	background-color: #CC0000;
+	float: left;
+}
+
+.bluetwo {
+	height: 100%;
+	width: 67%;
+	background-color: #3366FF;
+	float: left;
+}
+
+.threetone {
+	height: 100px;
+	width: 100%;
+	clear: both;
+	margin-top: 15px;
+}
+
+.bluethree {
+	height: 100%;
+	width: 67%;
+	background-color: #3366FF;
+	float: left;
+}
+
+.redcolumn {
+	height: 100%;
+	width: 4%;
+	background-color: #CC0000;
+	float: left;
+}
+
+.greythree {
+	height: 100%;
+	width: 25%;
+	background-color: #595953;
+	float: left;
+}
