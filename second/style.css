@@ -23,7 +23,7 @@ html, body {
 
 .whiteboxone {
 	background-color: white;
-	height: 30%;
+	height: 30%;/*give these a static height, make the page better*/
 	width: 80%;
 	position: absolute;
 	top: 3%;
@@ -64,7 +64,7 @@ html, body {
 
 .whiteboxtwo {
 	background-color: white;
-	height: 60%;
+	height: 60%; /*give these a static height, make the page better*/
 	width: 80%;
 	position: absolute;
 	top: 36%;
@@ -87,12 +87,24 @@ html, body {
 	display: table-cell;
 }
 
-.footer {
+.footer { /*make this fixed*/
 	background-color: #595953;
 	height: 7%;
 	width: 500px;
 	margin: 0 auto;
 	position: relative;
+}
+
+.applebut{
+	position: absolute;
+	right: 130px;
+	top: 10px;
+}
+
+.googlebut {
+	position: absolute;
+	right: 60px;
+	top: 10px;
 }
 
 a {
@@ -114,14 +126,4 @@ a:visited {
 	color: lightgrey;
 }
 
-.applebut{
-	position: absolute;
-	right: 130px;
-	top: 10px;
-}
 
-.googlebut {
-	position: absolute;
-	right: 60px;
-	top: 10px;
-}

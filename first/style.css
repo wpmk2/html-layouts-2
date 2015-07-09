@@ -7,23 +7,26 @@
 .page {
 	height: 100%;
 	width: 100%;
+	max-width: 600px;
+}
+
+.upperbar {
+	display: flex;
+	justify-content: space-between;
+	flex-flow: row;
 }
 
 .topleft {
 	margin-bottom: 10px;
 	height: 100px;
 	width: 32%;
-	float: left;
 	background-color: #CC0000;
 }
 
 .topmid {
 	margin-bottom: 10px;
-	margin-left: 2%;
-	margin-right: 2%;	
 	height: 100px;
 	width: 32%;
-	float: left;
 	background-color: #3366FF;
 }
 
@@ -31,7 +34,6 @@
 	margin-bottom: 10px;
 	height: 100px;
 	width: 32%;
-	float: right;
 	background-color: #595953;
 }
 

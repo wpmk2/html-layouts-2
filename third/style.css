@@ -1,0 +1,67 @@
+* {
+	font-family: sans-serif;
+	font-size: 12px;
+}
+html, body {
+	height: 100%;
+	width: 100%;
+}
+.body {
+	height: 100%;
+	max-width: 500px;
+	margin: 0 auto;
+}
+.headerfooter {
+	background-color: #595953;
+	height: 7%;
+	width: 500px;
+	margin: 0 auto;
+	position: relative;
+}
+.applebut{
+	position: absolute;
+	left: 40px;
+	top: 10px;
+}
+.googlebut {
+	position: absolute;
+	left: 110px;
+	top: 10px;
+}
+a {
+	font-family: sans-serif;
+	color: white;
+	text-decoration: none;
+	font-size: 12px;
+}
+a:link {
+	color: white;
+}
+a:hover {
+	font-weight: bold;
+}
+a:visited {
+	color: lightgrey;
+}
+#whiteblock {
+	height: 74%;
+	width: 470px;
+	padding: 6% 15px;
+	-webkit-columns: 200px 2;
+    -moz-columns: 200px 2;
+    columns: 200x 2;
+}
+h3 {
+	font-size: 28px;
+	margin: 0;
+}
+#whiteblock p {
+    font-size: 10px;
+}
+.imgbox {
+	height: 35%;
+	width: 100%;
+	background-color: lightgrey;
+	float: right;
+	margin-bottom: 5px;
+}
